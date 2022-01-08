@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CURRENT=`pwd`
+BASENAME=`basename "$CURRENT"`
+
+echo  "Creating a new Go template https://github.com/divye1995/GoTemplates/$BASENAME"
+
+go mod init github.com/divye1995/GoTemplates/$BASENAME
